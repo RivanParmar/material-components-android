@@ -107,7 +107,7 @@ When implementing your own animations, use an easing and duration theme attribut
 When creating animations in xml, set your animation's `interpolator` and `duration` properties to a Material motion theme attribute.
 
 ```xml
-<!-- res/anim/slide_in.xml –>
+<!-- res/anim/slide_in.xml -->
 <set xmlns:android="http://schemas.android.com/apk/res/android"
    android:duration="?attr/motionEasingDurationMedium1"
    android:interpolator="?attr/motionEasingStandardDecelerateInterpolator">
